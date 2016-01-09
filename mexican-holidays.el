@@ -93,3 +93,4 @@
 )
 
 (provide 'mexican-holidays)
+;;; mexican-holidays.el ends here
