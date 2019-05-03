@@ -38,7 +38,7 @@
   '((holiday-fixed 1 1 "Año Nuevo")
     (holiday-fixed 2 5 "Día de la Constitución")
     (holiday-fixed 3 21 "Natalicio de Benito Juárez")
-    (holiday-fixed 4 1 "Día del Trabajo")
+    (holiday-fixed 5 1 "Día del Trabajo")
     (holiday-fixed 9 16 "Día de la Independencia de México")
     (holiday-fixed 11 20 "Día de la Revolución Mexicana")
     (holiday-fixed 12 25 "Navidad")
@@ -53,8 +53,9 @@
     (holiday-fixed 6 1 "Día de la Marina")
     (holiday-fixed 9 13 "Día de los Niños Héroes")
     (holiday-fixed 9 15 "Grito de Dolores")
-    (holiday-fixed 9 27 "Cnosumación de la Independencia de México")
+    (holiday-fixed 9 27 "Consumación de la Independencia de México")
     (holiday-fixed 10 12 "Descubrimiento de América")
+    (holiday-fixed 5 21 "Día del Politécnico")
     ))
 
 (defvar holiday-mexican--festivities
@@ -71,7 +72,7 @@
     (holiday-fixed 11 2 "Día de Muertos")
     (holiday-fixed 12 24 "Nochebuena")
     (holiday-fixed 12 28 "Día de los Inocentes")
-    (holiday-fixed 12 31 "Vispera de Año Nuevo")    
+    (holiday-fixed 12 31 "Víspera de Año Nuevo")
     ))
 
 (defvar holiday-mexican--christian
@@ -90,7 +91,7 @@
 
 (defvar holiday-mexican-holidays
   (append holiday-mexican--statutory-holidays holiday-mexican--christian holiday-mexican--festivities holiday-mexican--civic-holidays)
-)
+  )
 
 (provide 'mexican-holidays)
 ;;; mexican-holidays.el ends here
